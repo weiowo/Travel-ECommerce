@@ -16,5 +16,5 @@ export default [
   },
   pluginJs.configs.recommended,
   pluginReact.configs.recommended, // Use the recommended React config
-  pluginNext.configs.recommended,  // Include the Next.js recommended config
+  pluginNext.configs.recommended, // Include the Next.js recommended config
 ];

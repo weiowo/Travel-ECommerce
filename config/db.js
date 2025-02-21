@@ -20,7 +20,6 @@ async function connectDB() {
       `${process.env.MONGODB_URI}/ecommerce`,
       opts
     );
-    
   }
 
   cached.conn = await cached.promise;
