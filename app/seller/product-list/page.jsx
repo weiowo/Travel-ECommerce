@@ -10,10 +10,8 @@ import toast from 'react-hot-toast';
 
 const ProductList = () => {
   const { router, getToken, user } = useAppContext();
-
   const [products, setProducts] = useState([]);
   const [loading, setLoading] = useState(true);
-  console.log('products', products);
 
   const fetchSellerProduct = async () => {
     try {
